@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "E-Commerce ( ShopEase )",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/server.js",
+    "server": "nodemon Backend/server.js",
+    "client": "npm start --prefix Frontend",
+    "dev": "concurrently \"npm run server \" \"npm run client\"",
+    "data:import": "node Backend/seederScript"
+  },
+  "author": "vutukuru sai varun",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4"
+  },
+  "devDependencies": {
+    "concurrently": "^7.4.0",
+    "nodemon": "^2.0.20"
+  },
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  }
+}

@@ -1,0 +1,212 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="footermain"
+        data-testid="footer"
+      >
+        <div
+          class="container-fluid"
+          style="background-color: rgb(255, 255, 255);"
+        >
+          <div
+            class="footer row"
+          >
+            <div
+              class="col-lg-1"
+            />
+            <div
+              class="footerleft col-lg-6"
+            >
+              <div
+                class="float-left text-dark"
+              >
+                <p>
+                  ©2019 Globoforce Limited trading as Workhuman. All rights reserved.
+                </p>
+                 
+              </div>
+            </div>
+            <div
+              class="footerright d-lg-block d-none col-lg-4"
+            >
+              <div
+                class="float-right"
+              >
+                <p>
+                   
+                  <a
+                    class="leftMargin"
+                    href="http://res1.globoforce.com/corporate/eng/terms.html"
+                    target="_blank"
+                  >
+                    Terms of Use
+                  </a>
+                   
+                  <a
+                    class="leftMargin"
+                    href="http://res1.globoforce.com/corporate/eng/privacy.html"
+                    target="_blank"
+                  >
+                    Privacy Policy
+                  </a>
+                   
+                  <a
+                    class="leftMargin"
+                    href="http://res1.globoforce.com/corporate/eng/cookie.html"
+                    target="_blank"
+                  >
+                    Cookie Policy
+                  </a>
+                   
+                  <a
+                    class="leftMargin"
+                    href="/microsites/t_pub/Contacts"
+                  >
+                    Contact Us
+                  </a>
+                   
+                </p>
+              </div>
+            </div>
+            <div
+              class="col-lg-1"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="footermain"
+      data-testid="footer"
+    >
+      <div
+        class="container-fluid"
+        style="background-color: rgb(255, 255, 255);"
+      >
+        <div
+          class="footer row"
+        >
+          <div
+            class="col-lg-1"
+          />
+          <div
+            class="footerleft col-lg-6"
+          >
+            <div
+              class="float-left text-dark"
+            >
+              <p>
+                ©2019 Globoforce Limited trading as Workhuman. All rights reserved.
+              </p>
+               
+            </div>
+          </div>
+          <div
+            class="footerright d-lg-block d-none col-lg-4"
+          >
+            <div
+              class="float-right"
+            >
+              <p>
+                 
+                <a
+                  class="leftMargin"
+                  href="http://res1.globoforce.com/corporate/eng/terms.html"
+                  target="_blank"
+                >
+                  Terms of Use
+                </a>
+                 
+                <a
+                  class="leftMargin"
+                  href="http://res1.globoforce.com/corporate/eng/privacy.html"
+                  target="_blank"
+                >
+                  Privacy Policy
+                </a>
+                 
+                <a
+                  class="leftMargin"
+                  href="http://res1.globoforce.com/corporate/eng/cookie.html"
+                  target="_blank"
+                >
+                  Cookie Policy
+                </a>
+                 
+                <a
+                  class="leftMargin"
+                  href="/microsites/t_pub/Contacts"
+                >
+                  Contact Us
+                </a>
+                 
+              </p>
+            </div>
+          </div>
+          <div
+            class="col-lg-1"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

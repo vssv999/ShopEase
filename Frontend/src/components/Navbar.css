@@ -1,0 +1,31 @@
+.Navbar {
+  justify-content: flex-end;
+  width: 1300px;
+}
+
+.offcanvas-backdrop {
+  opacity: 0.5;
+}
+#Navbarview {
+  margin-left: 3rem;
+  margin-right: 25rem;
+}
+
+@media (max-width: 900px) {
+  .Navbar {
+    width: auto;
+  }
+  #Navbarview {
+    margin-right: 15rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .Navbar {
+    width: auto;
+    display: table-cell;
+  }
+  #Navbarview {
+    margin-right: 1rem;
+  }
+}

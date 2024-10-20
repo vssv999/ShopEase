@@ -1,0 +1,36 @@
+.wishscreen {
+  display: flex;
+  max-width: 1300px;
+  margin: 2rem auto;
+}
+
+.wishscreen h2 {
+  margin-bottom: 1rem;
+}
+
+.wishscreen__left {
+  flex: 2;
+  background: transparent;
+}
+
+@media (max-width: 1320px) {
+  .wishscreen {
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wishscreen {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 960px) {
+  .wishscreen {
+    flex-direction: column;
+  }
+
+  .wishscreen__right {
+    margin: 1rem;
+  }
+}

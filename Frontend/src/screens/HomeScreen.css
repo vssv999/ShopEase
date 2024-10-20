@@ -1,0 +1,117 @@
+.homescreen {
+  max-width: 1300px;
+}
+
+.homescreen_sorting {
+  z-index: 1;
+  position: relative;
+  font-size: 1rem;
+  color: #171717;
+  float: right;
+}
+
+.homescreen_sorting select {
+  border: normal #868585;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.homescreen_products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.filtering_products {
+  display: flex;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.pricefilter ul li {
+  margin: 1px;
+  list-style-type: none;
+}
+
+.pricefilter ul li #pricetags {
+  border: none;
+  background-color: #fff;
+}
+
+.pricefilter ul li #pricetags:focus {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px solid #171717;
+  border-radius: 1px;
+  font-weight: bolder;
+  padding: 2px;
+  transition: 0.01s ease-in;
+  box-shadow: 0px 2px 3px 0px rgb(0, 0, 0, 0.3);
+  -webkit-transition: 0.01s ease-in;
+  -moz-transition: 0.01s ease-in;
+  -ms-transition: 0.01s ease-in;
+  -o-transition: 0.01s ease-in;
+}
+
+.pricefilter button {
+  border: none;
+  background-color: #fff;
+  margin: 5px;
+  display: block;
+}
+
+.category button {
+  border: none;
+  background-color: #fff;
+  margin: 5px;
+  display: block;
+}
+
+.category button:focus {
+  position: relative;
+  background-color: #ffffff;
+  border: 2px solid #171717;
+  border-radius: 1px;
+  font-weight: bolder;
+  padding: 2px;
+  transition: 0.2s ease-in;
+  box-shadow: 0px 2px 3px 0px rgb(0, 0, 0, 0.3);
+}
+
+.category-link {
+  list-style: none;
+  color: rgba(0, 0, 0, 0.61);
+  font: 400 0.8vmax "Roboto";
+  margin: 0.4vmax;
+  cursor: pointer;
+  transition: all 0.01s;
+  -webkit-transition: all 0.01s;
+  -moz-transition: all 0.01s;
+  -ms-transition: all 0.01s;
+  -o-transition: all 0.01s;
+}
+.category-link:hover {
+  color: tomato;
+}
+
+@media (max-width: 1200px) {
+  .homescreen_products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .homescreen_products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 630px) {
+  .homescreen_products {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
